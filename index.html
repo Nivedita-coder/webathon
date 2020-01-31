@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width &Equal;device-width,initial-scale &Equal;1">
+    <link rel="script.js"
+    href="https://www.fashionblog.com/fashionblogcss/fashion.css">
+    <body bgcolor="green" 
+     
+    >
+        <div>
+            <h3>Are you as addicted to fashion blogs as we are? Thought so. have you ever considered starting your own,though?</h3>
+</div>
+    </body>
+</html>
+<!--Navigation-->
+
+
+<img class="myslides"
+src="/home/nivedita/Desktop/webpage3/download.jpeg"
+style="width: 50%;">
+<input type="text">
+
+<nav class="fashion-bar fashion-red">
+    <a href="#home" class="fashion button fashion-bar-item">Home</a>
+    <a href="#brand" class="fashion button fashion-bar-item">Brand</a>
+    <a href="#tour" class="fashion button fashion-bar-item">Tour</a>
+    <a href="contact" class="fashion button fashion-bar-item">Contact</a>
+</nav>
+<!--Slide Show-->
+<section>
+
+    <img class="mySlides"
+    src="/home/nivedita/Desktop/webpage3/download (1).jpeg"
+    style="width: 50%;">
+    <img class="mySlides"
+    src="/home/nivedita/Desktop/webpage3/download 3.jpeg"
+    style="width: 50%;">
+
+
+    <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+
+</section>
+
+
+
+
+<script>
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+
+
+</script>
