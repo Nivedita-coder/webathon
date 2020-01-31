@@ -5,4 +5,5 @@ its just a webpage on fashionblog, to share the news related fashion and its als
 
 
 
-![Image1]
+![Image1](https://github.com/Nivedita-coder/webathon/blob/master/Screenshot%20from%202020-01-31%2015-53-44.png)
+![Image2](https://github.com/Nivedita-coder/webathon/blob/master/Screenshot%20from%202020-01-31%2015-53-54.png)
